@@ -10,13 +10,17 @@
 
   <!-- Put your site title here -->
   <title>
-    Leticia Chaves | A Web Developer based in Lahore, Pakistan.
+    Leticia Chaves | Portfolio
   </title>
 
   <meta name="description" content="Add small description of yourslef.">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
   <meta name="keywords" content="Put your name, skills and some coding keywords" />
   <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -24,6 +28,7 @@
   <!-- ***** Header ***** -->
 
   <header class="header" role="banner" id="top">
+    
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
@@ -42,15 +47,32 @@
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
-          <span>Leticia Chaves</span>
+          <span class="big__title">Leticia </br> Chaves</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
         <p>Front-end | Game | 3D</p>
         <a href="#contact" class="btn btn--pink">Fale Comigo!</a>
       </div>
     </div>
-  </header>
+     
+    </div>
+    <div class="hero">
+      <div class="container_header">
+        <div class="myimages"> 
+          <img src="./images/geometri1.png"  class="object1" >
+          <img src="./images/geometri2.png"  class="object2" >
+          <img src="./images/geometri3.png"  class="object3" >
+          <img src="./images/geometri4.png"  class="object4" >
+        </div>
+      </div>
+    </div>
 
+   
+  </header>
+ 
+
+
+  
   <main role="main">
 
     <!-- ***** Work ***** -->
@@ -61,28 +83,35 @@
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
+          <div class="work__box js-scroll">
             <div class="work__text">
               <h3>Apresentação pessoal</h3>
               <p>
                 Apresentação pessoal interativa, em formato de gamificação para estudo de fluxo de navegação e UI\UX design
               </p>
+
               <div class="work__links">
                 <a href="https://view.genially.com/63063fd9e9767e0012217188/interactive-content-leticia-chaves-apresentacao" target="_blank" class="link__text">
                   Ver projeto<span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <!-- <img src="./images/github.svg" class="work__code" alt="GitHub"> -->
-                </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <figure class="snip1573">
+                <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+                <figcaption>
+                  <h3>Ver mais</h3>
+                </figcaption>
+                <a href="https://view.genially.com/63063fd9e9767e0012217188/interactive-content-leticia-chaves-apresentacao" target="_blank"></a>
+              </figure>
             </div>
           </div>
 
-          <div class="work__box">
+
+
+          
+          
+          <div class="work__box js-scroll">
             <div class="work__text">
               <h3>Judgment Day</h3>
               <p>
@@ -105,16 +134,22 @@
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+              <figure class="snip1573">
+                <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+                <figcaption>
+                  <h3>Ver mais</h3>
+                </figcaption>
+                <a href="https://www.behance.net/gallery/168618203/Judgment-Day-Horror-scene" target="_blank"></a>
+              </figure>
             </div>
           </div>
+          
 
-          <div class="work__box">
+          <div class="work__box js-scroll">
             <div class="work__text">
               <h3>Hora1</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Hora 1 é um desenvolvido com o objetivo de representar uma página promocional de um jogo de terror, os elementos de identidade visual (tipografia, cor, imagem…) enfatizam as características de terror.
               </p>
               <ul class="work__list">
                 <li>CSS Flexbox</li>
@@ -133,11 +168,16 @@
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+              <figure class="snip1573">
+                <img src="./images/project-3.png" class="work__image" alt="Project 1" />
+                <figcaption>
+                  <h3>Ver mais</h3>
+                </figcaption>
+                <a href="https://lepleen.github.io/hora1/" target="_blank"></a>
             </div>
           </div>
 
-          <div class="work__box">
+          <div class="work__box js-scroll">
             <div class="work__text">
               <h3>D202d</h3>
               <p>
@@ -158,39 +198,116 @@
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a> -->
               </div>
-            </div>
+          </div>
             <div class="work__image-box">
-              <img src="./images/project-4.png" class="work__image" alt="Project 3" />
+              <figure class="snip1573">
+                <img src="./images/project-4.png"  alt="Project 3" />
+
+                <figcaption>
+                  <h3>Ver mais</h3>
+            </figcaption>
+            <a href="https://lepleen.github.io/D2020D/" target="_blank"></a>
             </div>
           </div>
 
-          <div class="work__box">
+          <div class="work__box js-scroll">
             <div class="work__text">
-              <h3>D202d</h3>
+              <h3>Solar system</h3>
               <p>
-                D2020d é um site com tema RPG desenvolvido para representar uma site de venda de dados personalizados de RPG, jogos, tabuleiros, peões, fantasias… entre outros elementos presentes em games voltados para jogadores apaixonados pelo tema D&D.
+                O projeto a seguir foi desenvolvido para estudo de iluminação, composição, modelagem e conceito de cenários 3D, o tema proposto tem características de ficção cientifica, aborda diferentes tipos de abdução, e cenários de invasões alienígenas.
               </p>
               <ul class="work__list">
                 <li>JavaScript</li>
                 <li>HTML 5 & CSS3</li>
-                <li>UI/UX design</li>
+                <li>UI design avançado</li>
+                <li>UX design</li>
               </ul>
 
               <div class="work__links">
-                <a href="https://lepleen.github.io/SolarSystem/" class="link__text" target="_blank">
+                <a href="https://lepleen.github.io/SolarSystem/" target="_blank" class="link__text ">
                   Visit Site <span>&rarr;</span>
                 </a>
-                
-                <a href="https://www.behance.net/gallery/130144533/Solar-System-UI-UX-WEB" class="mgbtn link__text" target="_blank">
-                  Visit portfolio <span>&rarr;</span>
-                </a>
-                <!-- <a href="">
+                <!-- <a href="#">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a> -->
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-5.png" class="work__image" alt="Project 3" />
+              <figure class="snip1573">
+                <img src="./images/project-5.png" class="work__image" alt="Project 1" />
+                <figcaption>
+                  <h3>Identidade Visual</h3>
+                </figcaption>
+                <a href="https://www.behance.net/gallery/130144533/Solar-System-UI-UX-WEB" target="_blank"></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="work__box js-scroll">
+            <div class="work__text">
+              <h3>Flex Game</h3>
+              <p>
+                Flexgame, é um site desenvolvido com o objetivo de representar um blog voltado para notícias relacionadas ao mundo dos games, tecnologia e entretenimento. 
+              </p>
+              <ul class="work__list">
+                <li>JavaScript</li>
+                <li>HTML 5 & CSS3</li>
+                <li>UI design avançado</li>
+                <li>UX design</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://lepleen.github.io/FlexGame/" target="_blank" class="link__text ">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <!-- <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <figure class="snip1573">
+                <img src="./images/project-6.png" class="work__image" alt="Project 1" />
+                <figcaption>
+                  <h3>Ver mais</h3>
+                </figcaption>
+                <a href="https://lepleen.github.io/FlexGame/" target="_blank"></a>
+              </figure>
+            </div>
+          </div>
+
+          <div class="work__box js-scroll">
+            <div class="work__text">
+              <h3>Gamexdcom</h3>
+              <p>
+                OO projeto Gamexdcom foi desenvolvido com o objetivo de estudar HTML5 e CSS3 avançado, e conciliar interesses da área de desenvolvimento de game UI/UX design posicionamento avançado de elementos e responsividade.
+              </p>
+              <ul class="work__list">
+                <li>JavaScript</li>
+                <li>HTML 5 & CSS3</li>
+                <li>UI design avançado</li>
+                <li>UX design</li>
+                <li>responsividade</li>
+
+              </ul>
+
+              <div class="work__links">
+                <a href="https://lepleen.github.io/FlexGame/" target="_blank" class="link__text ">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <!-- <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <figure class="snip1573">
+                <img src="./images/project-7.png" class="work__image" alt="Project 1" />
+                <figcaption>
+                  <h3>Ver mais</h3>
+                </figcaption>
+                <a href="https://lepleen.github.io/Gamexdcom/" target="_blank"></a>
+              </figure>
             </div>
           </div>
         </div>
@@ -214,7 +331,7 @@
 
     <!-- ***** About ***** -->
 
-    <section class="about" id="about">
+    <section class="about js-scroll" id="about">
       <div class="row">
         <h2>Sobre Mim</h2>
         <div class="about__content">
@@ -239,7 +356,7 @@
 
   <!-- ***** Contact ***** -->
 
-  <section class="contact" id="contact">
+  <section class="contact js-scroll" id="contact">
     <div class="row">
       <h2>Fale comigo!</h2>
       <div class="contact__info">
@@ -255,7 +372,6 @@
 
   <!-- ***** Footer ***** -->
 
-  <footer role="contentinfo" class="footer">
     <div class="row">
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
@@ -293,7 +409,11 @@
   <a href="#top" class="back-to-top" title="Back to Top">
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
   </a>
-  <script src="./index.js"></script>
+  <script src="./index.js">
+
+    
+
+  </script>
 </body>
 
 </html>
