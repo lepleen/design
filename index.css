@@ -811,7 +811,7 @@ body:not(.user-is-tabbing) a:focus {
     opacity: 0;
 }
 
-.js .js-scroll.ativp {
+.js .js-scroll.ativo {
     opacity: 1;
     transition: .3s;
 }
